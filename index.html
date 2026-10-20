@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waste to Useful Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f0fff4;
+      color: #18352a;
+    }
+    header {
+      background: #087f5b;
+      color: white;
+      padding: 28px 15px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 10px; }
+    nav {
+      background: #075e45;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      background: white;
+      margin: 18px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px #0001;
+    }
+    h2 { color: #087f5b; }
+    .project {
+      background: #e5f7eb;
+      padding: 14px;
+      border-radius: 8px;
+      margin-top: 12px;
+    }
+    button {
+      background: #087f5b;
+      color: white;
+      border: 0;
+      padding: 12px 18px;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+    footer {
+      background: #075e45;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>♻️ Waste to Useful Products</h1>
+  <p>Turning Waste into Wonderful Things!</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#ideas">Ideas</a>
+  <a href="#benefits">Benefits</a>
+</nav>
+
+<section id="about">
+  <h2>About Our Science Project</h2>
+  <p>
+    This project explains how waste materials can be reused
+    to create useful products. Reuse and recycling help reduce
+    pollution and protect our environment.
+  </p>
+</section>
+
+<section id="ideas">
+  <h2>♻️ Creative Project Ideas</h2>
+
+  <div class="project">
+    <h3>1. Plastic Bottle Planter</h3>
+    <p>Reuse an empty plastic bottle to grow small plants.</p>
+  </div>
+
+  <div class="project">
+    <h3>2. Newspaper Paper Bag</h3>
+    <p>Turn old newspapers into useful paper bags.</p>
+  </div>
+
+  <div class="project">
+    <h3>3. Cardboard Organizer</h3>
+    <p>Reuse cardboard boxes to organize stationery.</p>
+  </div>
+
+  <div class="project">
+    <h3>4. Kitchen Waste Compost</h3>
+    <p>Convert suitable fruit and vegetable scraps into compost.</p>
+  </div>
+</section>
+
+<section id="benefits">
+  <h2>🌱 Benefits</h2>
+  <ul>
+    <li>Reduces waste and pollution</li>
+    <li>Saves natural resources</li>
+    <li>Encourages creativity</li>
+    <li>Promotes a cleaner environment</li>
+  </ul>
+  <button onclick="showMessage()">Explore Our Mission</button>
+  <p id="message"></p>
+</section>
+
+<footer>
+  <p>School Science Project</p>
+  <p>Reduce • Reuse • Recycle</p>
+</footer>
+
+<script>
+  function showMessage() {
+    document.getElementById("message").textContent =
+      "Small actions can make our planet greener!";
+  }
+</script>
+
+</body>
+</html>
